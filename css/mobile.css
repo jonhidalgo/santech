@@ -1,0 +1,59 @@
+@media (max-width: 800px){
+
+    .main_section{
+        padding: 2%;
+    }
+
+    .Productos{
+        display: inherit;
+        height: auto;
+        background-color: rgba(255, 250, 205, 0);
+    }
+    .Producto{
+        margin-top: auto;
+        background-color: rgba(173, 216, 230, 0);
+    }
+    .Content{
+        background-color: rgba(173, 216, 230, 0);
+       
+    }
+    .caracteristicas .subcaract{
+         margin-top: -100px;
+        display: inherit;
+        justify-content: space-between;
+        padding: 1px;
+    }
+    .caracteristicas{
+        margin-top: 800px;
+        display: inherit;
+       
+    }
+    .subempresas {
+      display: inherit;
+      background-color: rgba(173, 216, 230, 0.138);
+  }
+  .empresas {
+    display: inherit;
+    background-color: rgba(213, 213, 213, 0.357);
+   }
+
+  .mobil{
+      font-size: 20px;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+
+  .brand_image{
+      margin-right: -18px;
+    
+  }
+
+  .footer_options{
+      margin-left: -47px;
+  }
+
+
+
+
+
+} 

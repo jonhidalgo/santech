@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+html, body{
+    padding: 0px;
+    margin:px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(83, 83, 83);
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 900;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav ul{
+    display: flex;
+    color: violet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    
+}
+
+nav li{
+    padding-right:15px;
+    list-style: none;
+    
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav li a:hover{
+    color: rgb(248, 210, 85);
+}
+
+
+/* --------------------Main section */
+
+.main_section{
+    padding: 5%;
+    background-color: rgba(173, 216, 230, 0);
+    color: blue;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 35px;
+    
+    
+
+}
+
+.Productos{
+    background-color: rgba(173, 216, 230, 0);
+    max-height: 35px;
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+ 
+}
+
+.Producto{
+    background-color: rgba(173, 216, 230, 0);
+    padding: 50px;
+    margin-right: 50px;
+    
+     
+}
+
+
+.Content{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 00px;
+    box-shadow: 16px 17px 11px 0px #000000a8;
+    text-align: center;
+    width: 500px; 
+    border-radius: 20px;
+    
+    
+}
+
+.contenedor_img{
+    text-align: center;
+    background-color: rgba(173, 216, 230, 0);
+}
+
+.buton{
+    
+    color: white;
+    background-color: rgb(115, 133, 165);
+    border:none;
+    border-radius: 5px;
+    width: 100%;
+    height: 25px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.buton:hover{
+    background-color: rgb(98, 163, 206);
+}
+
+.caracteristicas{
+    
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+.contenedor_img2{
+    text-justify: distribute-all-lines;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.subcaract{
+    font-size: 15px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    
+
+}
+
+
+.empresas{
+    text-align: center;
+    
+    background-color: rgba(153, 204, 221, 0.275);
+    padding: 20px;
+
+}
+
+.subempresas{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+.footer{
+    display: flex;
+    padding: 20px;
+    background-color: rgb(83, 83, 83);
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    
+}
+
+footer li{
+    padding-top:20px;
+    list-style: none;
+    
+}
+footer li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.sinmobil{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
