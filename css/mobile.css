@@ -1,4 +1,4 @@
-@media (max-width: 800px){
+@media (max-width: 1000px){
 
     .main_section{
         padding: 2%;
@@ -24,7 +24,7 @@
         padding: 1px;
     }
     .caracteristicas{
-        margin-top: 800px;
+        margin-top: 1000px;
         display: inherit;
        
     }

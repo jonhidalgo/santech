@@ -49,7 +49,7 @@
     align-self: center;
 }
 
-@media (max-width:900px){
+@media (max-width:1000px){
     .row{
         display: inherit;
     }

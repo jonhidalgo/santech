@@ -50,9 +50,15 @@ nav li a:hover{
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
     font-size: 35px;
-    
-    
+}
 
+.main_section_index{
+    padding: 5%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 35px;
 }
 
 .Productos{
@@ -107,7 +113,7 @@ nav li a:hover{
     background-color: rgb(98, 163, 206);
 }
 
-.caracteristicas{
+.caracteristicas, label{
     
     font-size: 30px;
     text-align: center;
@@ -145,6 +151,59 @@ nav li a:hover{
     padding: 30px;
 
 }
+
+/*---------------------- SECCION DE VENTAS    */
+
+.imagen_pago{
+    
+    margin: auto;
+    
+
+}
+.modulo_pago{
+    align-items: center;
+    margin-left: 25px;
+    text-align: start;
+    
+
+}
+
+.form{
+    padding: 10px;
+    margin-left: 30px;
+    
+    align-items: center;
+}
+
+.input{
+    width: 85%;
+    margin-bottom: -25px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(158, 158, 175);
+}
+
+.buton_ventas{
+    
+    color: rgb(255, 255, 255);
+    background-color: rgb(100, 184, 162);
+    border:none;
+    border-radius: 5px;
+    width: 70%;
+    height: 40px;
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: 20%;
+    
+}
+
+.buton_ventas:hover{
+    background-color: lightpink;
+    
+}
+
+
 
 .footer{
     display: flex;
